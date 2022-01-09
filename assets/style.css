@@ -2,6 +2,7 @@
 :root {
     --background-color: #262626;
     --mainText-color: #F4A261;
+    --mainText-font: Arial, Helvetica, sans-serif;
     --section-color: #2A9D8F;
 }
 /*wild card/body*/
@@ -12,6 +13,7 @@
 }
 body {
     background-color: var(--background-color);
+    font-family: var(--mainText-font);
 }
 /*header*/
 header {
@@ -21,6 +23,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-radius: 12px;
 }
 header h1 {
     margin: 0;
@@ -44,4 +47,17 @@ header nav ul li a {
     font-size: 32px;
     border-bottom: solid var(--mainText-color) 2px;
     font-weight: lighter;
+}
+/*END header*/
+/*footer*/
+footer {
+    background-color: var(--section-color);
+    padding: 6px;
+    border-radius: 12px;
+}
+footer p {
+    color: var(--mainText-color);
+    margin: auto;
+    opacity: 80%;
+    text-align: center;
 }
