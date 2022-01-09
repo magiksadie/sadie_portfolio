@@ -14,6 +14,7 @@
 body {
     background-color: var(--background-color);
     font-family: var(--mainText-font);
+    color: var(--mainText-color);
 }
 /*header*/
 header {
@@ -61,3 +62,4 @@ footer p {
     opacity: 80%;
     text-align: center;
 }
+/*END footer*/
