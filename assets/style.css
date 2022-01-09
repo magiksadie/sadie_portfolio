@@ -1,0 +1,47 @@
+/*variables*/
+:root {
+    --background-color: #262626;
+    --mainText-color: #F4A261;
+    --section-color: #2A9D8F;
+}
+/*wild card/body*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--background-color);
+}
+/*header*/
+header {
+    padding: 10px;
+    align-items: center;
+    background-color: var(--section-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header h1 {
+    margin: 0;
+    display: inline;
+    font-weight: bold;
+    font-size: 36px;
+}
+header a {
+    text-decoration: none;
+    color: var(--mainText-color);
+}
+header nav {
+    float: right;
+    margin: auto 0;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: auto 32px;
+    font-size: 32px;
+    border-bottom: solid var(--mainText-color) 2px;
+    font-weight: lighter;
+}
