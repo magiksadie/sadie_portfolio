@@ -114,16 +114,31 @@ header nav ul li a {
     opacity: 75%;
 }
 /*"my work" section"*/
+.work-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+    justify-content: center;
+}
 #my-work h4 {
     background-color: var(--section-color);
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     padding: 4px 4px 4px 4px;
+    font-size:calc(12px +1.5vw);
+    white-space: nowrap;
+}
+.banner-tag {
+    width: 25%;
+}
+.banner-tag img {
+    width: 100%;
+    border: solid 2px var(--accent-color);
 }
 .run-buddy img {
     border: solid 4px var(--accent-color);
-    width: auto;
-    height: 300px;
+    width: 100%;
+    height: auto;
 }
 /*footer*/
 footer {
