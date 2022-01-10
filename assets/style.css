@@ -116,8 +116,14 @@ header nav ul li a {
 /*"my work" section"*/
 #my-work h4 {
     background-color: var(--section-color);
-    border-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
     padding: 4px 4px 4px 4px;
+}
+.run-buddy img {
+    border: solid 4px var(--accent-color);
+    width: auto;
+    height: 300px;
 }
 /*footer*/
 footer {
