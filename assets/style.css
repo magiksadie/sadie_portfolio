@@ -87,21 +87,36 @@ header nav ul li a {
     margin-right: 45px;
 }
 /*END hero section*/
+/*section: main*/
 /*"about me" section*/
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+}
 #about-me, #my-work {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 4px 4px 4px 4px;
+    max-width: 70%;
 }
 #about-me h3, #my-work h3 {
-    border-right: solid 4px var(--mainText-color);
+    border-right: solid 2px var(--mainText-color);
     margin-right: 15px;
+    text-align: center;
 }
 #about-me p {
     text-align: left;
 }
 /*END "about me" section*/
+/*hover + opacity change*/
+.run-buddy:hover, .refractor:hover, .robots:hover, .password-generator:hover, .quiz:hover {
+    opacity: 75%;
+}
+/*"my work" section"*/
+.run-buddy {
+
+}
 
 /*footer*/
 footer {
