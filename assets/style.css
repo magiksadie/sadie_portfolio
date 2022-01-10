@@ -85,8 +85,24 @@ header nav ul li a {
     align-self: flex-end;
     margin-bottom: 45px;
     margin-right: 45px;
-    
 }
+/*END hero section*/
+/*"about me" section*/
+#about-me, #my-work {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4px 4px 4px 4px;
+}
+#about-me h3, #my-work h3 {
+    border-right: solid 4px var(--mainText-color);
+    margin-right: 15px;
+}
+#about-me p {
+    text-align: left;
+}
+/*END "about me" section*/
+
 /*footer*/
 footer {
     background-color: var(--section-color);
