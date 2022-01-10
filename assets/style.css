@@ -114,10 +114,11 @@ header nav ul li a {
     opacity: 75%;
 }
 /*"my work" section"*/
-.run-buddy {
-
+#my-work h4 {
+    background-color: var(--section-color);
+    border-radius: 12px;
+    padding: 4px 4px 4px 4px;
 }
-
 /*footer*/
 footer {
     background-color: var(--section-color);
