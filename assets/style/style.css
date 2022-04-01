@@ -1,8 +1,12 @@
 /*variables*/
 :root {
-    --background-color: #262626;
-    --mainText-color: #F4A261;
-    --mainText-font: Arial, Helvetica, sans-serif;
-    --section-color: #2A9D8F;
-    --accent-color: #E76F51;
+    --background-color: #3F4256;
+    --seconday-background-color: #1C1E27;
+    --mainText-color: #C3B3AB;
+    --section-color: #04B1A5;
+    --accent-color: #E13C68;
+    --mainText-font: 'Montserrat', sans-serif;
+}
+* {
+    font-family: var(--mainText-font);
 }
