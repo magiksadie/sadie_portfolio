@@ -1,0 +1,20 @@
+$background: #3F4256;
+$secondaryBackground: #1C1E27;
+$mainTextColor: #C3B3AB;
+$sectionColor: #04B1A5;
+$accentColor: #E13C68;
+$mainTextFont: 'Montserrat', sans-serif;
+
+body {
+    background: $background;
+    color: $mainTextColor;
+    font-family: $mainTextFont;
+}
+header {
+    background: $secondaryBackground;
+    color: $mainTextColor;
+    padding: 1.5rem;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
