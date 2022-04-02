@@ -10,11 +10,59 @@ body {
     color: $mainTextColor;
     font-family: $mainTextFont;
 }
-header {
+.site-header {
     background: $secondaryBackground;
     color: $mainTextColor;
+    border-radius: .5rem;
     padding: 1.5rem;
     top: 0;
     width: 100%;
     z-index: 1;
+    text-align: center;
+    text-decoration: none;
+    .title {
+        font-weight: 300;
+        font-size: 2rem;
+        margin: 0 0 1rem;
+        grid-area: title;
+    }
+    .subtitle {
+        display: block;
+        font-weight: 200;
+        font-size: .5em;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+    }
+    a {text-decoration: none;
+        color: inherit;
+    &:visited {
+            color: inherit;
+        }
+    }
 }
+.nav-bar {
+    @media (min-width: 53em) {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-areas: "nav title empty";
+        gap: 1.5rem;
+    }
+}
+.main-menu {
+    grid-area: nav;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: $accentColor;
+    @media (min-width: 30em) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    @media (min-width: 53em) {
+        justify-content: flex-start;
+        margin-top: .75rem;
+    }
+}
+
