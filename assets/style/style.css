@@ -10,7 +10,6 @@ body {
   border-radius: .5rem;
   padding: 1.5rem;
   top: 0;
-  width: 100%;
   z-index: 1;
   text-align: center;
   text-decoration: none;
@@ -81,5 +80,15 @@ body {
             justify-content: flex-start;
     margin-top: .75rem;
   }
+}
+
+footer {
+  background: #1C1E27;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 200;
+  color: #E13C68;
+  border-radius: .5rem;
 }
 /*# sourceMappingURL=style.css.map */

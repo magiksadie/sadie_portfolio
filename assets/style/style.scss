@@ -16,7 +16,6 @@ body {
     border-radius: .5rem;
     padding: 1.5rem;
     top: 0;
-    width: 100%;
     z-index: 1;
     text-align: center;
     text-decoration: none;
@@ -65,4 +64,12 @@ body {
         margin-top: .75rem;
     }
 }
-
+footer {
+    background: $secondaryBackground;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 200;
+    color: $accentColor;
+    border-radius: .5rem;
+}
